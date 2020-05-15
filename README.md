@@ -2,7 +2,7 @@
 
 This project was created with the Cat API. You can find the documentation for it [here](https://docs.thecatapi.com/).
 
-Before you run the project please make sure to rum:
+Before you run the project please make sure to run:
 
 ### `npm i`
 

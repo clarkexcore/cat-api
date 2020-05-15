@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 
+//Import Components
+import Header from './Header/Header';
+
+//API Key
 const catApiHeader = {'x-api-key' : process.env.REACT_APP_CATAPI};
 
 function App() {
@@ -56,7 +60,6 @@ function App() {
     useEffect(() => {
         if(breedSelected !== 'None'){;
             fetchCats(breedSelected);
-            console.log(breedInfo);
         }
     }, [breedSelected]);
 
@@ -82,9 +85,9 @@ function App() {
 
     return(
         <div className="app">
+            <Header />
             {breedsLoaded ?
                 <div>
-                    <p>loaded</p>
                     <select
                         value={breedSelected}
                         onChange={e => handleSelect(e)}
