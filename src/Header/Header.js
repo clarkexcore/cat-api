@@ -7,6 +7,10 @@ const StyledHeader = styled.header`
     justify-content: center;
     color: white;
     font-weight: 700;
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 1.5px;
+    }
 `;
 
 const Header = () => {
