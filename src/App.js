@@ -6,6 +6,7 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
+//Styles
 const StyledApp = styled.div`
     min-height: 100vh;
     display: flex;

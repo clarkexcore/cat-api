@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//Styles
 const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;

@@ -9,20 +9,20 @@ import BreedSelected from './layouts/BreedSelected';
 import Selector from './layouts/Selector';
 import CatsImgs from './layouts/CatsImgs';
 
-//Cat API Key
-const catApiHeader = {'x-api-key' : process.env.REACT_APP_CATAPI};
 
 //Styles
 const StyledMain = styled.main`
-    padding: 50px 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media(max-width: 500px){
-        padding: 50px 0;
-    }
+padding: 50px 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+@media(max-width: 500px){
+    padding: 50px 0;
+}
 `;
 
+//Cat API Key
+const catApiHeader = {'x-api-key' : process.env.REACT_APP_CATAPI};
 
 const Main = () => {
 

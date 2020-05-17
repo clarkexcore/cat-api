@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//Styles
 const StyledFooter = styled.footer`
     background-color: tomato;
     padding: 10px 0;
